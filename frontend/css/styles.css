@@ -4,6 +4,12 @@
 .logo{
     height: 60px;
 }
-.navbar-header{
-    padding: 10px;
+.navbar{
+    padding: 20px;
+    background-color: rgba(22, 22, 87,0.2)
+}
+
+#imagSlide{
+    width: 1024px;
+ 
 }
