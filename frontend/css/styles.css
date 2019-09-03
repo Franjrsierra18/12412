@@ -1,0 +1,21 @@
+.sociale .img{
+    height: 20px;
+}
+.logo{
+    height: 60px;
+}
+.navbar{
+    padding: 20px;
+    background-color: rgba(22, 22, 87,0.2)
+}
+
+.imgSlide{
+    width: 100vw;
+ 
+}
+.text-white{
+    font-size: 0.8rem;
+}
+.grid-section{
+    margin-top: 3rem;
+}
