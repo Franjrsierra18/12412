@@ -19,3 +19,13 @@
 .grid-section{
     margin-top: 3rem;
 }
+.bg-warning{
+    position: absolute;
+    right: 15px;
+    height: 3.5rem;
+    width: 3.5rem;
+    z-index: 2
+}
+.otra {
+    margin-left: 15px;
+}
