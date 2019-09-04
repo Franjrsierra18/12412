@@ -1,3 +1,35 @@
+.quienes-somos{
+    margin: auto;
+    padding: 3em 0;
+    width: 80%;
+    background-color: #b0d4e0;
+    color: #222743;
+}
+
+#quienesSomos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1em;
+    width: 60%;
+    background-color: white;
+    text-align: justify;
+}
+
+#quienesSomos h2{
+    text-decoration-line: underline;
+    text-decoration-color: #fef200;
+    align-self: flex-start;
+}
+
+#quienesSomos button{
+    margin: auto;
+    background-color: #141939;
+    color: #fef200;
+}
+
 .sociale .img{
     height: 20px;
     justify-content: end
