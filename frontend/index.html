@@ -13,14 +13,21 @@
         <section class="container Slide">
             <div class="row align-items-center">
               <div class="col-sm">
-                  <nav class="navbar navbar-inverse fixed-top">
+                   <nav class="navbar  fixed-top ">
                       <div class="navbar-header">
-                        <a class="navbar-brand" href="#header_wrapper"><img img-fluid src="./img/logo.png" alt="Logo GeeksHub Travels"
+                        <a class="navbar-brand col-sm-4" href="#header_wrapper" ><img img-fluid src="./img/logo.png" alt="Logo GeeksHub Travels"
                             class="logo"></a>
                         </div>
-                      <a href="#" class="nav-link">Destino</a>
-                      <a href="#" class="nav-link">Quién Somos</a>
-                      <a href="#" class="nav-link">Donde estamos</a>
+                       <div class="menu nav collapse navbar-collapse"> 
+                          <a href="#" class="nav-link">Destino</a>
+                          <a href="#" class="nav-link">Quién Somos</a>
+                          <a href="#" class="nav-link">Donde estamos</a>
+                          
+                        </div>
+                        <button class=" " type="button" data-toggle="collapse" data-target=".menu"
+                        aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                        <div class="animated-icon1"><span></span><span></span><span></span></div>
+                    </button>
                         <div class="sociale" > 
                           <a href="#"><img img-fluid src="./img/twitter.png" alt="twitter" class="img"></a>
                           <a href="#"><img img-fluid src="./img/whatsapp.png" alt="whatsapp" class="img"></a>
@@ -28,14 +35,72 @@
                           <a href="#"><img img-fluid src="./img/instagram.png" alt="instagram" class="img"></a>
                           <a href="#"><img img-fluid src="./img/linkedin.png" alt="linkedin" class="img"></a>
                           <a href="#"><img img-fluid src="./img/youtube.png" alt="youtube" class="img"></a>
+                            <!-- Collapse button -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Navbar-->
+<nav class="navbar navbar-light amber lighten-4 mb-4">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#">Navbar</a>
+  
+    <!-- Collapse button -->
+    <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent20"
+      aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon1"><span></span><span></span><span></span></div>
+    </button>
+  
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent20">
+  
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+      </ul>
+      <!-- Links -->
+  
+    </div>
+    <!-- Collapsible content -->
+  
+  </nav>
+  <!--/.Navbar-->
+  
+
+
+
+
+
+
+
+
                         </div>
-                  </nav>
+                  </nav> 
+                  
+
             </div>
           </div>
         </section>
         <section id="Slide">
 
-          <div id=textSlide>
+          <div id=textSlide class="col-sm-6">
             <h1>Viaja!</h1>
             <h3>Descubre lugares maravillosos!</h3>
             <button class="btn btn-warning">ver destinos</button>
@@ -169,12 +234,9 @@
 <div class=footerderechos>
   <p>GeeksHubs Travels 2018 Todos los derechos reservados.</p>
 </div>       
-        
-        
-    
-
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="./scripts.js"></script>
 </body>
 </html>
