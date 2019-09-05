@@ -81,7 +81,6 @@
 .grid-section{
     margin-top: 3rem;
 }
-<<<<<<< HEAD
 
 .footercontent{
     background: -webkit-linear-gradient(70deg, #065ea5  30%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(30deg, #0190ba 64%, #3fb2d1 60%);
@@ -174,8 +173,10 @@
   
   .button:hover, a:active{
     color:blue}
-  table.w3-table-all{margin:20px 0}  
-=======
+  table.w3-table-all{
+      margin:20px 0;
+}  
+
 .bg-warning{
     position: absolute;
     right: 15px;
@@ -341,4 +342,3 @@
     }
   }
   
->>>>>>> a5747b0aca01652c2f8d1c7608ae78a830a5d5a7
