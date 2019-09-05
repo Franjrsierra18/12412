@@ -91,6 +91,101 @@
 .grid-section{
     margin-top: 3rem;
 }
+<<<<<<< HEAD
+
+.footercontent{
+    background: -webkit-linear-gradient(70deg, #065ea5  30%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(30deg, #0190ba 64%, #3fb2d1 60%);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: auto;
+    padding-top:20px;
+    padding-bottom:20px;  
+  }
+  
+  .ayuda{
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:auto;
+  }
+  
+  .informacion{
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:auto;
+    
+  }
+  .informacion a{
+    color:white;
+    
+  }
+  
+  .suscripcion{
+    margin-right:auto;
+    margin-left:auto;
+    
+  }
+  .footerderechos{
+   background-color:#1e2460;
+   margin:auto;
+   justify-content:center;
+    padding:1px;
+  }
+  
+  .footerderechos p{
+    margin:auto;
+    display:block;
+    color:white;
+    text-align:center;
+
+  }
+  h7 {
+      color:white;
+  }
+
+  .ayuda p{
+      color:white;
+  }
+  .button {
+    position: relative;
+    background-color:orange;
+    border: none;
+    font-size: 16px;
+    color:white;
+    padding: 15px;
+    width: 176px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .button:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+  
+  .button:hover, a:active{
+    color:blue}
+  table.w3-table-all{margin:20px 0}  
+=======
 .bg-warning{
     position: absolute;
     right: 15px;
@@ -135,3 +230,4 @@
 }
 
   
+>>>>>>> a5747b0aca01652c2f8d1c7608ae78a830a5d5a7
