@@ -1,24 +1,87 @@
+.quienes-somos{
+    margin: auto;
+    padding: 3em 0;
+    width: 80%;
+    background-color: #b0d4e0;
+    color: #222743;
+}
+
+#quienesSomos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1em;
+    width: 60%;
+    background-color: white;
+    text-align: justify;
+}
+
+#quienesSomos h2{
+    text-decoration-line: underline;
+    text-decoration-color: #fef200;
+    align-self: flex-start;
+}
+
+#quienesSomos button{
+    margin: auto;
+    background-color: #141939;
+    color: #fef200;
+}
+
 .sociale .img{
     height: 20px;
+    justify-content: end
 }
 .logo{
     height: 60px;
+    justify-content: start;
 }
 .navbar{
     padding: 20px;
-    background-color: rgba(22, 22, 87,0.2)
+    background-color: rgba(22, 22, 87,0.5);
+    
+
+}
+.menu{
+    justify-content: center;
+    color: white;
+    flex-wrap: wrap;
+   
 }
 
-.imgSlide{
-    width: 100vw;
+#Slide{
+    background: url(../img/ilha.jpg) no-repeat center top;
+    height: 100vh;
+    padding: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center
+
+}
+
+#textSlide{
+    width: 60vw;
+    display: block;
+    align-items: center;
+    align-content: center;
+    color: white;
  
+
+}
+
+#textSlide .btn{
+    margin-top: 20px;
 }
 .text-white{
     font-size: 0.8rem;
 }
+
 .grid-section{
     margin-top: 3rem;
 }
+<<<<<<< HEAD
 
 .footercontent{
     background: -webkit-linear-gradient(70deg, #065ea5  30%, rgba(0,0,0,0) 30%), -webkit-linear-gradient(30deg, #0190ba 64%, #3fb2d1 60%);
@@ -112,3 +175,157 @@
   .button:hover, a:active{
     color:blue}
   table.w3-table-all{margin:20px 0}  
+=======
+.bg-warning{
+    position: absolute;
+    right: 15px;
+    height: 3.5rem;
+    width: 3.5rem;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: larger;
+}
+.otra {
+    margin-left: 0px;
+    width: 130%;
+}
+
+@media (min-width: 768px){
+    .visibleT{
+        visibility: visible;
+        z-index: 1;
+        margin-bottom: 13rem;
+    }
+    .visibleCarr{
+        visibility: hidden;
+        z-index: 0;
+        margin-top: -23rem;
+    }
+}
+@media (max-width: 768px){
+    .visibleT{
+        visibility: hidden;
+    }
+    .visibleCarr{
+        visibility: visible;
+        margin-top: -26rem;
+    }
+    .paraCarr {
+        width: 50rem;
+        height: 40rem;
+    }
+}
+
+
+/* menu hamburguer */
+/* Icon 1 */
+
+.animated-icon1, .animated-icon2, .animated-icon3 {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    margin: 0px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    }
+    
+    .animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+    }
+    
+    .animated-icon1 span {
+    background: #e65100;
+    }
+    
+    .animated-icon2 span {
+    background: #e3f2fd;
+    }
+    
+    .animated-icon3 span {
+    background: #f3e5f5;
+    }
+    
+    .animated-icon1 span:nth-child(1) {
+    top: 0px;
+    }
+    
+    .animated-icon1 span:nth-child(2) {
+    top: 10px;
+    }
+    
+    .animated-icon1 span:nth-child(3) {
+    top: 20px;
+    }
+    
+    .animated-icon1.open span:nth-child(1) {
+    top: 11px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+    }
+    
+    .animated-icon1.open span:nth-child(2) {
+    opacity: 0;
+    left: -60px;
+    }
+    
+    .animated-icon1.open span:nth-child(3) {
+    top: 11px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    }
+    
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .navbar{
+        justify-content: right;
+        background-color: blue;
+    }
+    .menu {position: relative;
+    background-color: black;
+    }
+    .menu a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .menu a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+  
+>>>>>>> a5747b0aca01652c2f8d1c7608ae78a830a5d5a7
