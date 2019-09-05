@@ -118,6 +118,19 @@
         visibility: visible;
         margin-top: -26rem;
     }
+    .bg-warning{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        height: 6.5rem;
+        width: 6.5rem;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 2rem;
+    }
     .paraCarr {
         width: 50rem;
         height: 40rem;
