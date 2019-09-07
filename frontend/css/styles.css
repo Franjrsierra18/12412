@@ -1,6 +1,7 @@
 .row {
     margin-right: 0px;
     margin-left: 0px;
+    justify-content: center;
 }
 
 .quienes-somos{
@@ -234,6 +235,16 @@
 }
 .card-img-top{
     object-fit: fill;
+}
+
+.registro{
+    background-image: url(https://wallpaperaccess.com/full/254361.jpg);
+}
+
+.form-registro{
+    background-color: rgba(128, 128, 128, 0.397);
+    margin: 8rem 6rem 2rem;
+    padding: 1rem 1rem;
 }
 
 .visibleT{
