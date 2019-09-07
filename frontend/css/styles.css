@@ -90,7 +90,7 @@
     margin-top: 20px;
 }
 .text-white{
-    font-size: 0.8rem;
+    font-size: 1.5rem;
 }
 
 .grid-section{
@@ -206,13 +206,6 @@
     font-weight: bold;
     font-size: larger;
 }
-.otra {
-    margin-left: 0px;
-    width: 130%;
-}
-.card-img-top{
-    height: 25vh;
-}
 .promo-foto{
     margin-right: 4rem;
     font-size: 1.1rem;
@@ -235,18 +228,22 @@
     width:100%;
     position:absolute;
 }
+.col-md-4{
+    max-height: 100%;
+    object-fit: fill;
+}
+.card-img-top{
+    object-fit: fill;
+}
 
+.visibleT{
+    visibility: visible;
+    z-index: 1;
+    margin-bottom: 3rem;
+}
 @media (min-width: 768px){
-    .visibleT{
-        visibility: visible;
-        z-index: 1;
-        margin-bottom: 3rem;
-    }
     .visibleCarr{
         display: none;
-        visibility: hidden;
-        z-index: 0;
-        margin-top: -23rem;
     }
 }
 @media (max-width: 768px){
@@ -308,7 +305,24 @@
     }
 }
 
-
+@media (min-width:1300px){
+    .toptitle{
+        text-align: left;
+    }
+}
+@media (max-width:1300px){
+    .toptitle{
+        text-align: left;
+    }
+}
+@media (max-width:1068px){
+    .toptitle{
+        text-align: left;
+    }
+    .text-white{
+        font-size: 1.4rem; 
+    }
+}
 
 @media (max-width: 992px){
 .menu{
@@ -316,4 +330,18 @@
     padding-right: 5px;
     /* width: 50%; */
 }
+    .text-white{
+        font-size: 1.2rem; 
+    }
+}
+
+@media (max-width:928px){
+    .text-white{
+        font-size: 1rem; 
+    }
+}
+@media (max-width:868px){
+    .text-white{
+        font-size: 0.8rem; 
+    }
 }
