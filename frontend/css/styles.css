@@ -235,6 +235,7 @@
 }
 .card-img-top{
     object-fit: fill;
+    max-height: 256px;
 }
 
 .registro{
