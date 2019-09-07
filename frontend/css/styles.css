@@ -1,3 +1,8 @@
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
 .quienes-somos{
     margin: auto;
     padding: 3em 0;
@@ -79,7 +84,8 @@
 }
 
 .grid-section{
-    margin-top: 3rem;
+    margin-top: 5rem;
+    margin-bottom: -8rem; 
 }
 
 .footercontent{
@@ -179,9 +185,10 @@
 
 .bg-warning{
     position: absolute;
-    right: 15px;
-    height: 3.5rem;
-    width: 3.5rem;
+    right: 0px;
+    top: 0px;
+    height: 5.5rem;
+    width: 5.5rem;
     z-index: 2;
     display: flex;
     justify-content: center;
@@ -192,6 +199,31 @@
 .otra {
     margin-left: 0px;
     width: 130%;
+}
+.card-img-top{
+    height: 25vh;
+}
+.promo-foto{
+    margin-right: 4rem;
+    font-size: 1.1rem;
+}
+
+.formulario{
+    margin-top: 4rem;;
+}
+
+.map-container-6{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container-6 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 @media (min-width: 768px){
