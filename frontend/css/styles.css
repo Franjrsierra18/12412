@@ -35,26 +35,36 @@
     color: #fef200;
 }
 
-.sociale .img{
-    height: 20px;
-    justify-content: end
-}
 .logo{
     height: 60px;
     justify-content: start;
 }
 .navbar{
-    padding: 20px;
-    background-color: rgba(22, 22, 87,0.5);
-    
+    padding: 10px;
+    background-color: rgba(22, 33, 87,0.5);
+    justify-content: space-between;
+   
 
 }
 .menu{
-    justify-content: center;
-    color: white;
-    flex-wrap: wrap;
+    width: 100%;
+    font-size: 1rem;
+   
+    justify-content: space-between;
    
 }
+
+ .sociale{
+    display: flex;
+    flex-direction: row;
+ 
+}
+
+.nav-sociale{
+    padding:10px;; 
+}
+
+
 
 #Slide{
     background: url(../img/ilha.jpg) no-repeat center top;
@@ -266,111 +276,11 @@
 }
 
 
-/* menu hamburguer */
-/* Icon 1 */
 
-.animated-icon1, .animated-icon2, .animated-icon3 {
-    width: 30px;
-    height: 20px;
-    position: relative;
-    margin: 0px;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transition: .5s ease-in-out;
-    -moz-transition: .5s ease-in-out;
-    -o-transition: .5s ease-in-out;
-    transition: .5s ease-in-out;
-    cursor: pointer;
-    }
-    
-    .animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
-    display: block;
-    position: absolute;
-    height: 3px;
-    width: 100%;
-    border-radius: 9px;
-    opacity: 1;
-    left: 0;
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transition: .25s ease-in-out;
-    -moz-transition: .25s ease-in-out;
-    -o-transition: .25s ease-in-out;
-    transition: .25s ease-in-out;
-    }
-    
-    .animated-icon1 span {
-    background: #e65100;
-    }
-    
-    .animated-icon2 span {
-    background: #e3f2fd;
-    }
-    
-    .animated-icon3 span {
-    background: #f3e5f5;
-    }
-    
-    .animated-icon1 span:nth-child(1) {
-    top: 0px;
-    }
-    
-    .animated-icon1 span:nth-child(2) {
-    top: 10px;
-    }
-    
-    .animated-icon1 span:nth-child(3) {
-    top: 20px;
-    }
-    
-    .animated-icon1.open span:nth-child(1) {
-    top: 11px;
-    -webkit-transform: rotate(135deg);
-    -moz-transform: rotate(135deg);
-    -o-transform: rotate(135deg);
-    transform: rotate(135deg);
-    }
-    
-    .animated-icon1.open span:nth-child(2) {
-    opacity: 0;
-    left: -60px;
-    }
-    
-    .animated-icon1.open span:nth-child(3) {
-    top: 11px;
-    -webkit-transform: rotate(-135deg);
-    -moz-transform: rotate(-135deg);
-    -o-transform: rotate(-135deg);
-    transform: rotate(-135deg);
-    }
-    
-
-
-
-
-
-
-@media screen and (max-width: 600px) {
-    .navbar{
-        justify-content: right;
-        background-color: blue;
-    }
-    .menu {position: relative;
-    background-color: black;
-    }
-    .menu a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .menu a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-  }
-  
+@media (max-width: 992px){
+.menu{
+    align-items: flex-end;
+    padding-right: 5px;
+    /* width: 50%; */
+}
+}
