@@ -76,11 +76,11 @@
       </div>
     </section>
     <section>
-
       <div class="container-fluid registro">
         <div class="row">
-          <form class="text-center border-light col-7 form-registro">
-            <p class="h4 mb-4">Registro</p>
+          <form class="text-center border-light col-10 form-registro">
+            <p class="h2 mb-1">Registro</p>
+            <p id="estasregistrado">¿Ya Estas Registrado?</p>
             <input type="text" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="Usuario">
             <input type="email" id="defaultLoginFormUsuario" class="form-control mb-4" placeholder="E-mail">
             <input type="password" id="repitPassword" class="form-control mb-4" placeholder="Contraseña">
@@ -89,15 +89,13 @@
             <div class="d-flex justify-content-around">
               <div>
                 <div class="custom-control custom-checkbox">
-                  <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
-                  <label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
+                  <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember" required>
+                  <label class="custom-control-label" for="defaultLoginFormRemember">Acepto los términos y condiciones,
+                    así como la politica de privacidad.</label>
                 </div>
               </div>
-              <div>
-                <a href="">Forgot password?</a>
-              </div>
             </div>
-            <button class="btn btn-info btn-block my-4" type="submit">Registrarse</button>
+            <button class="btn btn-info btn-block my-4" type="submit">Enviar</button>
           </form>
         </div>
       </div>
