@@ -1,3 +1,9 @@
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+    justify-content: center;
+}
+
 .quienes-somos{
     margin: auto;
     padding: 3em 0;
@@ -85,11 +91,12 @@
     margin-top: 20px;
 }
 .text-white{
-    font-size: 0.8rem;
+    font-size: 1.5rem;
 }
 
 .grid-section{
-    margin-top: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem; 
 }
 
 .footercontent{
@@ -189,9 +196,10 @@
 
 .bg-warning{
     position: absolute;
-    right: 15px;
-    height: 3.5rem;
-    width: 3.5rem;
+    right: 0px;
+    top: 0px;
+    height: 5.5rem;
+    width: 5.5rem;
     z-index: 2;
     display: flex;
     justify-content: center;
@@ -199,30 +207,69 @@
     font-weight: bold;
     font-size: larger;
 }
-.otra {
-    margin-left: 0px;
-    width: 130%;
+.promo-foto{
+    margin-right: 4rem;
+    font-size: 1.1rem;
 }
 
+.formulario{
+    margin-top: 4rem;;
+}
+
+.map-container-6{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container-6 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.col-md-4{
+    max-height: 100%;
+    object-fit: fill;
+}
+.card-img-top{
+    object-fit: fill;
+    max-height: 256px;
+}
+
+.registro{
+    background-image: url(https://cdn.inogen.com/wp-content/uploads/2014/01/travel-by-plane.jpg);
+    background-size: 100% 100%;
+}
+
+.form-registro{
+    background-color: rgba(128, 128, 128, 0.397);
+    margin: 8rem 6rem 2rem;
+    padding: 1rem 8rem;
+}
+
+#estasregistrado{
+    color: whitesmoke;
+}
+
+.visibleT{
+    visibility: visible;
+    z-index: 1;
+    margin-bottom: 3rem;
+}
 @media (min-width: 768px){
-    .visibleT{
-        visibility: visible;
-        z-index: 1;
-        margin-bottom: 13rem;
-    }
     .visibleCarr{
-        visibility: hidden;
-        z-index: 0;
-        margin-top: -23rem;
+        display: none;
     }
 }
 @media (max-width: 768px){
     .visibleT{
-        visibility: hidden;
+        display: none;
     }
     .visibleCarr{
         visibility: visible;
-        margin-top: -26rem;
+        margin-top: 0rem;
     }
     .bg-warning{
         position: absolute;
@@ -242,8 +289,57 @@
         height: 40rem;
     }
 }
+@media (max-width: 576px){
+    .visibleT{
+        display: none;
+    }
+    .visibleCarr{
+        visibility: visible;
+        margin-top: 0rem;
+    }
+    .bg-warning{
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        height: 6.5rem;
+        width: 6.5rem;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .paraCarr {
+        width: 50rem;
+        height: 40rem;
+    }
+    .formulario{
+        display: none;
+    }
+    .quienes-somos{
+        margin-bottom: 3rem;
+    }
+}
 
-
+@media (min-width:1300px){
+    .toptitle{
+        text-align: left;
+    }
+}
+@media (max-width:1300px){
+    .toptitle{
+        text-align: left;
+    }
+}
+@media (max-width:1068px){
+    .toptitle{
+        text-align: left;
+    }
+    .text-white{
+        font-size: 1.4rem; 
+    }
+}
 
 @media (max-width: 992px){
 .menu{
@@ -251,4 +347,18 @@
     padding-right: 5px;
     /* width: 50%; */
 }
+    .text-white{
+        font-size: 1.2rem; 
+    }
+}
+
+@media (max-width:928px){
+    .text-white{
+        font-size: 1rem; 
+    }
+}
+@media (max-width:868px){
+    .text-white{
+        font-size: 0.8rem; 
+    }
 }
