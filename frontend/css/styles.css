@@ -34,7 +34,7 @@
 .quienesSomos button{
     margin: auto;
     background-color: #141939;
-    color: #fef200;
+
 }
 
 
@@ -58,9 +58,11 @@
 .menu{
     font-size: 1.1rem;
     width: 100%;
-    justify-content: center;
- 
-    
+    justify-content: center;  
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.8);
 }
 
 
@@ -366,24 +368,26 @@
         height: 80px;
     }
     
-    .logo{
-        /* margin-left: -40vw; */
-        
-    }
-    .navbar-dark .navbar-toggler{
+       .navbar-dark .navbar-toggler{
         background-color: rgba(22, 33, 87,0.7);
         z-index: 99999;
     }
     
     #menuBurguer {
         margin-left: 40vw;
-        background-color: rgba(22, 33, 87,0.7);
+        background-color: rgba(19, 149, 200, 0.897);
+        font-style: italic;
+        color: #fef200;
         margin-top: -80px;
         margin-right: -10px;
         padding-top: 50px;
         padding-right:10px; 
         box-shadow:0px 4px 3px rgba(0,0,0,.5);
         /* width: 100%; */
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        color: rgba(255,255,255,.9);
     }
 
     .menu{
